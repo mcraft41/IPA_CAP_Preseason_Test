@@ -1,0 +1,13 @@
+{
+  "name": "cap-room-sync-backend",
+  "version": "1.0.0",
+  "description": "Tiny free relay backend for the Cap Room salary-cap league artifact — receives weekly stats and roster pulls from nfl_stats_sync.js and serves them to the league app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
